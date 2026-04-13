@@ -5,12 +5,19 @@ import java.util.Scanner;
 public class TheaterReservations {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner myscanner = new Scanner(System.in);
+
         System.out.println("Please enter your name: ");
-        String fullName = scanner.nextLine().trim();
+        String fullName = myscanner.nextLine().trim();
 
         System.out.println("What date will you be coming (MM/dd/yyyy: ");
-        String dateInput = scanner.nextLine().trim();
+        String dateInput = myscanner.nextLine().trim();
+
+        System.out.println("How many tickets would you like? ");
+        String numtickets = myscanner.nextLine();
+
+        String firstName = "";
+        String lastName = "";
 
 
     }
