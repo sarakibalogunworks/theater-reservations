@@ -19,6 +19,16 @@ public class TheaterReservations {
         String firstName = "";
         String lastName = "";
 
+        int spaceIndex = fullName.indexOf(" ");
+        if (spaceIndex > 0){
+            firstName = fullName.substring(0, spaceIndex);
+            lastName = fullName.substring(spaceIndex + 1);
+        } else {
+            firstName = fullName;
+        }
+
+
+
 
     }
 }
